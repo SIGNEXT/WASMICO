@@ -1,0 +1,30 @@
+{
+  "name": "microcontainerization-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "wasmico": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduRibeiro00/microcontainerization-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduRibeiro00/microcontainerization-cli/issues"
+  },
+  "homepage": "https://github.com/EduRibeiro00/microcontainerization-cli#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "form-data": "^4.0.0",
+    "request": "^2.88.2",
+    "yargs": "^17.5.1"
+  }
+}
